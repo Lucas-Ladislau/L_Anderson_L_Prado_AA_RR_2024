@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <stdlib.h> 
 
 void FazAlgo(int n) {
     int i, j, k;
@@ -13,10 +14,12 @@ void FazAlgo(int n) {
         }
     }
 
-    printf("%d\n", contador);
+    // printf("%d\n", contador);
 }
 
 int main(int argc, char *argv[]) {
+    clock_t inicio, fim;
+    double tempo_decorrido;
     if (argc != 2) {
         printf("Usage: %s <n>\n", argv[0]);
         return 1;
@@ -24,7 +27,15 @@ int main(int argc, char *argv[]) {
 
     int n = atoi(argv[1]);
     
+    inicio = clock();
+
     FazAlgo(n);
+
+    fim = clock();
+
+    tempo_decorrido = (double)(fim - inicio) / CLOCKS_PER_SEC;
+
+    printf("%.10f\n", tempo_decorrido);
 
     return 0;
 }
