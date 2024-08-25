@@ -1,0 +1,22 @@
+40863 - [2024-08-24 21:25:37,419] : DEBUG -> Experiment script executed
+40863 - [2024-08-24 21:25:37,419] : DEBUG -> Running the program with each input 1 times
+40863 - [2024-08-24 21:25:37,419] : DEBUG -> Running input: 5 - Time 1
+40863 - [2024-08-24 21:25:37,420] : DEBUG -> Execution time for input 5 (run 1): 1e-06 seconds
+40863 - [2024-08-24 21:25:37,420] : DEBUG -> Running input: 500 - Time 1
+40863 - [2024-08-24 21:25:37,498] : DEBUG -> Execution time for input 500 (run 1): 0.076826 seconds
+40863 - [2024-08-24 21:25:37,498] : DEBUG -> Running input: 1000 - Time 1
+40863 - [2024-08-24 21:25:38,121] : DEBUG -> Execution time for input 1000 (run 1): 0.622203 seconds
+40863 - [2024-08-24 21:25:38,121] : DEBUG -> Running input: 2000 - Time 1
+40863 - [2024-08-24 21:25:43,129] : DEBUG -> Execution time for input 2000 (run 1): 5.007149 seconds
+40863 - [2024-08-24 21:25:43,129] : DEBUG -> Running input: 5000 - Time 1
+40863 - [2024-08-24 21:26:59,604] : DEBUG -> Execution time for input 5000 (run 1): 76.472712 seconds
+40863 - [2024-08-24 21:26:59,604] : DEBUG -> Running input: 6000 - Time 1
+40863 - [2024-08-24 21:29:11,578] : DEBUG -> Execution time for input 6000 (run 1): 131.971278 seconds
+40863 - [2024-08-24 21:29:11,578] : DEBUG -> Running input: 7000 - Time 1
+40863 - [2024-08-24 21:32:40,666] : DEBUG -> Execution time for input 7000 (run 1): 209.08649 seconds
+40863 - [2024-08-24 21:32:40,666] : DEBUG -> Running input: 8000 - Time 1
+40863 - [2024-08-24 21:37:52,781] : DEBUG -> Execution time for input 8000 (run 1): 312.119888 seconds
+40863 - [2024-08-24 21:37:52,782] : DEBUG -> Running input: 9000 - Time 1
+40863 - [2024-08-24 21:45:17,245] : DEBUG -> Execution time for input 9000 (run 1): 444.470245 seconds
+40863 - [2024-08-24 21:45:17,245] : DEBUG -> Running input: 10000 - Time 1
+40863 - [2024-08-24 21:55:27,151] : DEBUG -> Execution time for input 10000 (run 1): 609.816118 seconds
