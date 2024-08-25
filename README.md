@@ -34,6 +34,7 @@ FOR (k = 1; k<=j;k++)
 ```
 
 E por ultimo o laço interno começa em k = 1 e vai até k = j, fazendo j iterações para um valor fixo de `j`. Portanto, o custo total é a soma das operações realizadas por todos os laços:
+
 $$
 C(n) = \sum_{i=1}^{n-2} \sum_{j=i+1}^{n} \sum_{k=1}^{j} O(1)
 $$
