@@ -14,7 +14,7 @@ void FazAlgo(int n) {
         }
     }
 
-    // printf("%d\n", contador);
+    printf("%d\n", contador);
 }
 
 int main(int argc, char *argv[]) {
