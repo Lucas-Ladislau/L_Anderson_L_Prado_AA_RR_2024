@@ -4,7 +4,6 @@
 ### C ###
 # Prerequisites
 *.d
-*.log
 
 
 # Object files
