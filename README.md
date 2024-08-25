@@ -110,6 +110,7 @@ C(n) = \frac{1}{3}n^3 - \frac{4}{3}n
 $$
 
 Por simplicidade, sabendo que C(n) tem um comportamento cúbico, podemos definir a complexidade como sendo:
+
 $$
 O(n^3)
 $$
