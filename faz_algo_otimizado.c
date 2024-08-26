@@ -2,20 +2,16 @@
 #include <time.h>
 #include <stdlib.h> 
 
-void FazAlgo(int n) {
-    int i, j, k;
-    long contador = 0; 
-
-    for (i = 1; i < n - 1; i++) {
-        for (j = i + 1; j <= n; j++) {
-            for (k = 1; k <= j; k++) {
-                contador++; 
-            }
+void FazAlgoOtimizado(int n) {
+    long contador = 0;
+    for (int i = 1; i < n - 1; i++) {
+        for (int j = i + 1; j <= n; j++) {
+            contador += j; 
         }
     }
-
     printf("%ld\n", contador);
 }
+
 
 int main(int argc, char *argv[]) {
     clock_t inicio, fim;
@@ -28,7 +24,7 @@ int main(int argc, char *argv[]) {
     int n = atoi(argv[1]);
     
     inicio = clock();
-    FazAlgo(n);
+    FazAlgoOtimizado(n);
     fim = clock();
 
     tempo_decorrido = (double)(fim - inicio) / CLOCKS_PER_SEC;
