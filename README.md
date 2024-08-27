@@ -121,4 +121,4 @@ $$
 - [X] ~~Código em C do algoritmo proposto~~
 - [X] ~~Experimentação com a execução do algoritmo com diferentes entradas e coleta de tempo de execução~~
 - [X] ~~Gráfico de linha com o tempo de execução em relação a cada entrada e análise da tendência de comportamente  assintótico~~
-- [ ] Apresentar um algoritmo que seja mais eficiente, em termos de complexidade, do que o algoritmo análisado
+- [X] ~~Apresentar um algoritmo que seja mais eficiente, em termos de complexidade, do que o algoritmo análisado~~
